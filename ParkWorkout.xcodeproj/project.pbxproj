@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574319C42599CB850088ACBF /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319C32599CB850088ACBF /* ParkDetailViewController.swift */; };
+		574319E42599CBC10088ACBF /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319CA2599CBC00088ACBF /* NetworkConstants.swift */; };
+		574319E52599CBC10088ACBF /* SessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319CC2599CBC00088ACBF /* SessionResponse.swift */; };
+		574319E62599CBC10088ACBF /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319CE2599CBC00088ACBF /* NetworkEngine.swift */; };
+		574319E72599CBC10088ACBF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574319D02599CBC10088ACBF /* Colors.xcassets */; };
+		574319E82599CBC10088ACBF /* HomeCoachCalendarTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319D22599CBC10088ACBF /* HomeCoachCalendarTheme.swift */; };
+		574319E92599CBC10088ACBF /* Brandon-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 574319D42599CBC10088ACBF /* Brandon-Regular.eot */; };
+		574319EA2599CBC10088ACBF /* Brandon-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 574319D52599CBC10088ACBF /* Brandon-Bold.eot */; };
+		574319EB2599CBC10088ACBF /* Brandon-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 574319D62599CBC10088ACBF /* Brandon-Regular.ttf */; };
+		574319EC2599CBC10088ACBF /* Brandon-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 574319D72599CBC10088ACBF /* Brandon-Bold.ttf */; };
+		574319ED2599CBC10088ACBF /* Brandon-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 574319D82599CBC10088ACBF /* Brandon-Medium.ttf */; };
+		574319EE2599CBC10088ACBF /* Brandon-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 574319D92599CBC10088ACBF /* Brandon-Regular.woff */; };
+		574319EF2599CBC10088ACBF /* Brandon-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 574319DA2599CBC10088ACBF /* Brandon-Bold.woff */; };
+		574319F02599CBC10088ACBF /* Brandon-Medium.eot in Resources */ = {isa = PBXBuildFile; fileRef = 574319DB2599CBC10088ACBF /* Brandon-Medium.eot */; };
+		574319F12599CBC10088ACBF /* Brandon-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 574319DC2599CBC10088ACBF /* Brandon-Medium.woff */; };
+		574319F22599CBC10088ACBF /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319DE2599CBC10088ACBF /* AutoLayout.swift */; };
+		574319F32599CBC10088ACBF /* PlistValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319DF2599CBC10088ACBF /* PlistValues.swift */; };
+		574319F42599CBC10088ACBF /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319E02599CBC10088ACBF /* JSONSchemaSupport.swift */; };
+		574319F52599CBC10088ACBF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574319E32599CBC10088ACBF /* LoginView.swift */; };
 		57C573C22598BDF900E110D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C573C12598BDF900E110D7 /* AppDelegate.swift */; };
 		57C573C42598BDF900E110D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C573C32598BDF900E110D7 /* SceneDelegate.swift */; };
 		57C573C62598BDF900E110D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C573C52598BDF900E110D7 /* ViewController.swift */; };
@@ -35,6 +54,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574319C32599CB850088ACBF /* ParkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailViewController.swift; sourceTree = "<group>"; };
+		574319CA2599CBC00088ACBF /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		574319CC2599CBC00088ACBF /* SessionResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionResponse.swift; sourceTree = "<group>"; };
+		574319CE2599CBC00088ACBF /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		574319D02599CBC10088ACBF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		574319D22599CBC10088ACBF /* HomeCoachCalendarTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoachCalendarTheme.swift; sourceTree = "<group>"; };
+		574319D42599CBC10088ACBF /* Brandon-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Regular.eot"; sourceTree = "<group>"; };
+		574319D52599CBC10088ACBF /* Brandon-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Bold.eot"; sourceTree = "<group>"; };
+		574319D62599CBC10088ACBF /* Brandon-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Regular.ttf"; sourceTree = "<group>"; };
+		574319D72599CBC10088ACBF /* Brandon-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Bold.ttf"; sourceTree = "<group>"; };
+		574319D82599CBC10088ACBF /* Brandon-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Medium.ttf"; sourceTree = "<group>"; };
+		574319D92599CBC10088ACBF /* Brandon-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Regular.woff"; sourceTree = "<group>"; };
+		574319DA2599CBC10088ACBF /* Brandon-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Bold.woff"; sourceTree = "<group>"; };
+		574319DB2599CBC10088ACBF /* Brandon-Medium.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Medium.eot"; sourceTree = "<group>"; };
+		574319DC2599CBC10088ACBF /* Brandon-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brandon-Medium.woff"; sourceTree = "<group>"; };
+		574319DE2599CBC10088ACBF /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		574319DF2599CBC10088ACBF /* PlistValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistValues.swift; sourceTree = "<group>"; };
+		574319E02599CBC10088ACBF /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
+		574319E32599CBC10088ACBF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		57C573BE2598BDF900E110D7 /* ParkWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C573C12598BDF900E110D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C573C32598BDF900E110D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +87,7 @@
 		57C573DF2598BDFC00E110D7 /* ParkWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C573E32598BDFC00E110D7 /* ParkWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkWorkoutUITests.swift; sourceTree = "<group>"; };
 		57C573E52598BDFC00E110D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C573F42598BF9100E110D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +115,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		574319C82599CBC00088ACBF /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				574319C92599CBC00088ACBF /* Constants */,
+				574319CB2599CBC00088ACBF /* Responses */,
+				574319CD2599CBC00088ACBF /* Engine */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		574319C92599CBC00088ACBF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				574319CA2599CBC00088ACBF /* NetworkConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		574319CB2599CBC00088ACBF /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				574319CC2599CBC00088ACBF /* SessionResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		574319CD2599CBC00088ACBF /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				574319CE2599CBC00088ACBF /* NetworkEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		574319CF2599CBC10088ACBF /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				574319D02599CBC10088ACBF /* Colors.xcassets */,
+				574319D12599CBC10088ACBF /* Theme */,
+				574319D32599CBC10088ACBF /* Font */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		574319D12599CBC10088ACBF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				574319D22599CBC10088ACBF /* HomeCoachCalendarTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		574319D32599CBC10088ACBF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				574319D42599CBC10088ACBF /* Brandon-Regular.eot */,
+				574319D52599CBC10088ACBF /* Brandon-Bold.eot */,
+				574319D62599CBC10088ACBF /* Brandon-Regular.ttf */,
+				574319D72599CBC10088ACBF /* Brandon-Bold.ttf */,
+				574319D82599CBC10088ACBF /* Brandon-Medium.ttf */,
+				574319D92599CBC10088ACBF /* Brandon-Regular.woff */,
+				574319DA2599CBC10088ACBF /* Brandon-Bold.woff */,
+				574319DB2599CBC10088ACBF /* Brandon-Medium.eot */,
+				574319DC2599CBC10088ACBF /* Brandon-Medium.woff */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		574319DD2599CBC10088ACBF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				574319DE2599CBC10088ACBF /* AutoLayout.swift */,
+				574319DF2599CBC10088ACBF /* PlistValues.swift */,
+				574319E02599CBC10088ACBF /* JSONSchemaSupport.swift */,
+				574319E12599CBC10088ACBF /* SwiftUIViews */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		574319E12599CBC10088ACBF /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				574319E22599CBC10088ACBF /* Auth */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		574319E22599CBC10088ACBF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				574319E32599CBC10088ACBF /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		57C573B52598BDF900E110D7 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +236,11 @@
 				57C573C12598BDF900E110D7 /* AppDelegate.swift */,
 				57C573C32598BDF900E110D7 /* SceneDelegate.swift */,
 				57C573C52598BDF900E110D7 /* ViewController.swift */,
+				574319C32599CB850088ACBF /* ParkDetailViewController.swift */,
+				574319CF2599CBC10088ACBF /* DesignSystem */,
+				574319DD2599CBC10088ACBF /* Helpers */,
+				574319C82599CBC00088ACBF /* NetworkLayer */,
+				57C573F42598BF9100E110D7 /* README.md */,
 				57C573C72598BDF900E110D7 /* Main.storyboard */,
 				57C573CA2598BDFC00E110D7 /* Assets.xcassets */,
 				57C573CC2598BDFC00E110D7 /* LaunchScreen.storyboard */,
@@ -231,8 +370,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574319EB2599CBC10088ACBF /* Brandon-Regular.ttf in Resources */,
 				57C573CE2598BDFC00E110D7 /* LaunchScreen.storyboard in Resources */,
+				574319ED2599CBC10088ACBF /* Brandon-Medium.ttf in Resources */,
+				574319EF2599CBC10088ACBF /* Brandon-Bold.woff in Resources */,
+				574319E72599CBC10088ACBF /* Colors.xcassets in Resources */,
+				574319EA2599CBC10088ACBF /* Brandon-Bold.eot in Resources */,
+				574319EE2599CBC10088ACBF /* Brandon-Regular.woff in Resources */,
+				574319E92599CBC10088ACBF /* Brandon-Regular.eot in Resources */,
+				574319F12599CBC10088ACBF /* Brandon-Medium.woff in Resources */,
 				57C573CB2598BDFC00E110D7 /* Assets.xcassets in Resources */,
+				574319EC2599CBC10088ACBF /* Brandon-Bold.ttf in Resources */,
+				574319F02599CBC10088ACBF /* Brandon-Medium.eot in Resources */,
 				57C573C92598BDF900E110D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +408,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C573C62598BDF900E110D7 /* ViewController.swift in Sources */,
+				574319C42599CB850088ACBF /* ParkDetailViewController.swift in Sources */,
+				574319E62599CBC10088ACBF /* NetworkEngine.swift in Sources */,
+				574319F22599CBC10088ACBF /* AutoLayout.swift in Sources */,
+				574319E82599CBC10088ACBF /* HomeCoachCalendarTheme.swift in Sources */,
+				574319F42599CBC10088ACBF /* JSONSchemaSupport.swift in Sources */,
+				574319F52599CBC10088ACBF /* LoginView.swift in Sources */,
+				574319E42599CBC10088ACBF /* NetworkConstants.swift in Sources */,
 				57C573C22598BDF900E110D7 /* AppDelegate.swift in Sources */,
 				57C573C42598BDF900E110D7 /* SceneDelegate.swift in Sources */,
+				574319F32599CBC10088ACBF /* PlistValues.swift in Sources */,
+				574319E52599CBC10088ACBF /* SessionResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
