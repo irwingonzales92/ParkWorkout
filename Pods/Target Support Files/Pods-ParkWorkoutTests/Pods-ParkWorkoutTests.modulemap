@@ -1,0 +1,6 @@
+framework module Pods_ParkWorkoutTests {
+  umbrella header "Pods-ParkWorkoutTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

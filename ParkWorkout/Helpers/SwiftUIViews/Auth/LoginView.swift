@@ -6,7 +6,7 @@
 //  Copyright © 2020 Irwin Gonzales. All rights reserved.
 //
 
-import Auth0
+//import Auth0
 import SwiftUI
 
 struct LoginView: View {
@@ -28,7 +28,7 @@ struct LoginView_Previews: PreviewProvider {
 }
 
 struct Main: View {
-    let credentialsManager = CredentialsManager(authentication: Auth0.authentication())
+
     @State private var isAuthenticated = false
     @State var tokenID = String()
 //    @ObservedObject var viewRouter: ViewRouter
@@ -227,44 +227,45 @@ struct Main: View {
     }
 
     func login() {
-        Auth0
-            .authentication()
-            .login(
-                usernameOrEmail: email,
-                password: password,
-                realm: "Username-Password-Authentication",
-                scope: "openid"
-            )
-            .start { result in
-                switch result {
-                case let .success(credentials):
-                    print("Credentials: \(credentials)")
-                    SessionManager.shared.store(credentials: credentials)
-                    guard let token = credentials.idToken else {
-                        return
-                    }
-                    print("Token: \(token)")
-                    //                self.getTrainers(tokenID: token)
-                    self.checkCreds()
-                case let .failure(error):
-                    print("Failed with \(error)")
-                }
-            }
+//        Auth0
+//            .authentication()
+//            .login(
+//                usernameOrEmail: email,
+//                password: password,
+//                realm: "Username-Password-Authentication",
+//                scope: "openid"
+//            )
+//            .start { result in
+//                switch result {
+//                case let .success(credentials):
+//                    print("Credentials: \(credentials)")
+//                    SessionManager.shared.store(credentials: credentials)
+//                    guard let token = credentials.idToken else {
+//                        return
+//                    }
+//                    print("Token: \(token)")
+//                    //                self.getTrainers(tokenID: token)
+//                    self.checkCreds()
+//                case let .failure(error):
+//                    print("Failed with \(error)")
+//                }
+//            }
     }
 
     func signUp() {
         if password == confirmPassword {
-            Auth0.authentication().createUser(email: email, password: password, connection: "Username-Password-Authentication").start { trainee in
-                switch trainee {
-                case let .failure(error):
-                    print("Error: \(error)")
-                case let .success(credentials):
-                    DispatchQueue.main.async {
-                        // Get Trainers Here!
-                        print("Success: \(credentials)")
-                    }
-                }
-            }
+//            Auth0.authentication().createUser(email: email, password: password, connection: "Username-Password-Authentication").start { trainee in
+//                switch trainee {
+//                case let .failure(error):
+//                    print("Error: \(error)")
+//                case let .success(credentials):
+//                    DispatchQueue.main.async {
+//                        // Get Trainers Here!
+//                        print("Success: \(credentials)")
+//                    }
+//                }
+//            }
+            print(password)
         } else {
             print("Error: Passwords don't match!")
         }
